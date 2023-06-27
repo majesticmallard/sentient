@@ -2,7 +2,13 @@
 
 int main(void) {
     Core core;
-    core.print();
+    core.init();
+
+    while (core.running()) {
+        core.update();
+        core.draw();
+        core.events();
+    }
 
     return 0;
 }
