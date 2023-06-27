@@ -1,5 +1,4 @@
 #include "CogniEngine/Core.hpp"
-#include <GLFW/glfw3.h>
 
 void Core::init() {
     if (!glfwInit()) {
