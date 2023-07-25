@@ -7,4 +7,4 @@ set(FILES
 
 add_executable(Game ${FILES})
 
-target_link_libraries(Game PRIVATE CogniEngine)
+target_link_libraries(Game PRIVATE Cogni)
